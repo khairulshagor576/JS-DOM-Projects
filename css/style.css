@@ -20,6 +20,14 @@ body{
 	align-items: center;
 }
 
+input[type='text']:disabled{
+	background-color: #fff;
+	color: #999;
+	border: 1px solid #000;
+	border-radius: 0.25rem;
+	padding: 10px;
+}
+
 button{
 	padding: 1rem 3rem;
 	margin: 1rem 0;
