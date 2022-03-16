@@ -37,16 +37,23 @@ window.onload =() =>{
 
 function main ()
 {
-  const root = document.getElementById('root');
-  const btn = document.getElementById('change-btn');
+  const root   = document.getElementById('root');
+  const btn    = document.getElementById('change-btn');
   const output = document.getElementById('output');
+  const copyBtn = document.getElementById('copy-btn');
 
   btn.addEventListener('click',function(){
   	bgColor = generateHexColor();
-  	root.style.backgroundColor=bgColor;
+  	root.style.backgroundColor = bgColor;
   	output.value = bgColor;
   });
+
+  copyBtn.addEventListener('click',function(){
+    navigator.clipboard.writeText(output.value);
+  });
 }
+
+
 
 function generateHexColor () 
 {

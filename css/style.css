@@ -28,6 +28,17 @@ input[type='text']:disabled{
 	padding: 10px;
 }
 
+.copy-btn
+{
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #fff;
+	border-radius: 0.25rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
 button{
 	padding: 1rem 3rem;
 	margin: 1rem 0;
@@ -52,4 +63,20 @@ button:hover
 h2{
 	text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
+
+.button{
+	padding: 1rem 3rem;
+	margin: 1rem 0;
+	outline: none;
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 0.25rem;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+
 
