@@ -53,6 +53,10 @@ button{
 	cursor: pointer;
 }
 
+span{
+	padding: 10px;
+}
+
 button:hover
 {
   background-color: #fff;
